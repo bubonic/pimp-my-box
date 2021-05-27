@@ -1,4 +1,20 @@
+
 # pimp-my-box
+
+This is a fork of the original **pimp-my-box** repo. It includes a working version for Ubuntu 20.04. 
+
+### Ubuntu 20.04
+We suggest as **ansible-playbook** runs, that after creating the **rtorrent** user, you log in or **su** to that user and install **pip** for **python2**. You can do this by:
+
+```
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+python2 get-pip.py
+```
+
+With the modifications of dependencies made in this fork, we have it working on both *client/workstation* and *server* of Ubuntu version 20.04. 
+
+We have tested it and all seems to install with minor complications. 
+
 
 :warning: | Read the docs regarding the migration to Ansible 2 and ruTorrent 3.9! Report any problems to Gitter or issues (rutorrent setup was tested on Bionic)!
 ---: | :---

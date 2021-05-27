@@ -18,9 +18,8 @@
       - build-essential
       - python-setuptools
       - python-pkg-resources
-      - python-virtualenv
+      - python3-virtualenv
       - python-dev
-      - python-pip
       - libreadline-dev
       - libsqlite3-dev
       - libxml2-dev
